@@ -1,0 +1,17 @@
+{
+    "name": "your-vendor-name/your-empty-library",
+    "description": "An empty library for testing purposes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\YourEmptyLibrary\\": "src/"
+        }
+    }
+}
